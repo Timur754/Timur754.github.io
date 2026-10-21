@@ -1,36 +1,36 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Reserva</title>
+<meta charset="UTF-8" />
+<meta name="author" content="Timur" />
+<meta name="description" content="Formulario de contacto con el restaurante" />
+<meta name="keywords" content="contacto, mensaje, restaurante, formulario" />
+<title>Envíenos su mensaje</title>
 </head>
 <body>
-    <header>
-        <h1>Reserva</h1>
-    </header>
-    <nav>
-        <a href="index.html">ÍNDICE</a>
-        <a href="horario.html">HORARIO</a>
-        <a href="formulario_reserva.html">RESERVA</a>
-        <a href="formulario_resena.html">RESENA</a>
-        <a href="formulario_contacto.html">CONTACTO</a>
-    </nav>
-    <main>
-        <form>
-            <fieldset>
-                <legend>Datos de la reserva</legend>
-                <label>Nombre:
-                    <input>
-                </label>
-                <label>Teléfono:
-                    <input>
-                </label>
-
-            </fieldset>
-        </form>
-    </main>
-    <footer>
-
-    </footer>
+<header>
+<h1>Envíenos su mensaje</h1>
+</header>
+<nav>
+    <a href="index.html">ÍNDICE</a> |
+    <a href="horario.html">HORARIO</a> |
+    <a href="formulario_reserva.html">RESERVA</a> |
+    <a href="formulario_resena.html">RESENA</a> |
+    <a href="formulario_contacto.html">CONTACTO</a> |
+</nav>
+<main>
+    <form>
+        <p>Su nombre: <input type="text" name="nombre" /></p>
+        <p>Su correo electrónico: <input type="email" name="email" /></p>
+        <p>Su teléfono: <input type="tel" name="telefono" /></p>
+        <p>Asunto: <input type="text" name="asunto" /></p>
+        <p>Su mensaje (máximo 500 caracteres):<br />
+        <textarea name="mensaje" rows="8" cols="50" maxlength="500"></textarea></p>
+        <p><button type="submit">ENVIAR</button></p>
+    </form>
+</main>
+<footer>
+    <p>© 2026 Restaurante · Córdoba, España · Tel. 957 000 000</p>
+</footer>
 </body>
 </html>
