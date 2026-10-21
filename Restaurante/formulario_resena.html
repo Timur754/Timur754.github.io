@@ -1,36 +1,42 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Reserva</title>
+<meta charset="UTF-8" />
+<meta name="author" content="Timur" />
+<meta name="description" content="Formulario para escribir una reseña de un plato del restaurante" />
+<meta name="keywords" content="reseña, plato, paella, croquetas, tortilla de patatas" />
+<title>Reseña de un plato</title>
 </head>
 <body>
-    <header>
-        <h1>Reserva</h1>
-    </header>
-    <nav>
-        <a href="index.html">ÍNDICE</a>
-        <a href="horario.html">HORARIO</a>
-        <a href="formulario_reserva.html">RESERVA</a>
-        <a href="formulario_resena.html">RESENA</a>
-        <a href="formulario_contacto.html">CONTACTO</a>
-    </nav>
-    <main>
-        <form>
-            <fieldset>
-                <legend>Datos de la reserva</legend>
-                <label>Nombre:
-                    <input>
-                </label>
-                <label>Teléfono:
-                    <input>
-                </label>
-
-            </fieldset>
-        </form>
-    </main>
-    <footer>
-
-    </footer>
+<header>
+<h1>Reseña de un plato</h1>
+</header>
+<nav>
+    <a href="index.html">ÍNDICE</a> |
+    <a href="horario.html">HORARIO</a> |
+    <a href="formulario_reserva.html">RESERVA</a> |
+    <a href="formulario_resena.html">RESENA</a> |
+    <a href="formulario_contacto.html">CONTACTO</a> |
+</nav>
+<main>
+    <form>
+        <p>Plato:
+        <select name="plato">
+        <option>Paella</option>
+        <option>Croquetas</option>
+        <option>Tortilla de patatas</option>
+        </select></p>
+        <p>Su nombre: <input type="text" name="nombre" /></p>
+        <p>Su reseña:<br />
+        <textarea name="resena" rows="5" cols="50"></textarea></p>
+        <p>
+        <button type="submit">Enviar reseña</button>
+        <button type="reset">Limpiar</button>
+        </p>
+    </form>
+</main>
+<footer>
+    <p>© 2026 Restaurante · Córdoba, España · Tel. 957 000 000</p>
+</footer>
 </body>
 </html>
