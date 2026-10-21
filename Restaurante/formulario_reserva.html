@@ -1,36 +1,39 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Reserva</title>
+<meta charset="UTF-8" />
+<meta name="author" content="Timur" />
+<meta name="description" content="Formulario para enviar una reserva al restaurante" />
+<meta name="keywords" content="reserva, restaurante, formulario" />
+<title>Haz una reserva</title>
 </head>
 <body>
-    <header>
-        <h1>Reserva</h1>
-    </header>
-    <nav>
-        <a href="index.html">ÍNDICE</a>
-        <a href="horario.html">HORARIO</a>
-        <a href="formulario_reserva.html">RESERVA</a>
-        <a href="formulario_resena.html">RESENA</a>
-        <a href="formulario_contacto.html">CONTACTO</a>
-    </nav>
-    <main>
-        <form>
-            <fieldset>
-                <legend>Datos de la reserva</legend>
-                <label>Nombre:
-                    <input>
-                </label>
-                <label>Teléfono:
-                    <input>
-                </label>
-
-            </fieldset>
-        </form>
-    </main>
-    <footer>
-
-    </footer>
+<header>
+<h1>Haz una reserva</h1>
+</header>
+<nav>
+    <a href="index.html">ÍNDICE</a> |
+    <a href="horario.html">HORARIO</a> |
+    <a href="formulario_reserva.html">RESERVA</a> |
+    <a href="formulario_resena.html">RESENA</a> |
+    <a href="formulario_contacto.html">CONTACTO</a> |
+</nav>
+<main>
+    <form action="#" method="post">
+        <p>Su nombre: <input type="text" name="nombre" /></p>
+        <p>Número de clientes: <input type="number" name="clientes" min="1" /></p>
+        <p>Su correo electrónico: <input type="email" name="email" /></p>
+        <p>Su teléfono: <input type="tel" name="telefono" /></p>
+        <p>Fecha de la reserva: <input type="date" name="fecha" /></p>
+        <p>Hora de la reserva: <input type="time" name="hora" /></p>
+        <p>Su mensaje:<br />
+        <textarea name="mensaje" rows="4" cols="50"></textarea></p>
+        <p><button type="submit">SOLICITAR RESERVA</button></p>
+        <p>Si desea saber cómo protegemos sus datos, consulte nuestra <a href="#">Política de privacidad</a></p>
+    </form>
+</main>
+<footer>
+    <p>Restaurante - Desarrollo web</p>
+</footer>
 </body>
 </html>
