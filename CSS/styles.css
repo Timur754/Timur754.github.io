@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(124, 80, 80);
+    display: flex;
+    flex-direction: column;
+}
+header{
+    text-align: center;
+    padding: 10px;
+    background-color:rgb(173, 140, 140);
+}
+nav{
+
+}
