@@ -6,17 +6,18 @@
   <meta name="author" content="Tsimur">
   <meta name="description" content="horario clase">
   <meta name="keywords" content="horario">
+  <link rel="stylesheet" href="../css/styles.css">
   <title>Horario SMR2</title>
 </head>
 <body>
-  <header>
+  <header class="bloque">
     <h1>Horario</h1>
   </header>
   <nav>
     <a href="../index.html">ÍNDICE</a>
   </nav>
   <main>
-    <table border="1">
+    <table class="horario" >
         <caption>SMR2</caption>
         <thead>
             <tr>
@@ -31,54 +32,50 @@
         <tbody>
             <tr>
                 <td>8:15-9:15</td>
-                <td>SOR</td>
-                <td>SOR</td>
-                <td>ODWP</td>
-                <td>SI</td>
-                <td>SI</td>
+                <td class="sor">SOR</td>
+                <td class="sor" rowspan="2">SOR</td>
+                <td class="odwp">ODWP</td>
+                <td class="si" rowspan="2">SI</td>
+                <td class="si" rowspan="2">SI</td>
             </tr>
             <tr>
                 <td>9:15-10:15</td>
-                <td>AW</td>
-                <td>SOR</td>
-                <td>AW</td>
-                <td>SI</td>
-                <td>SI</td>
+                <td class="aw">AW</td>
+                <td class="aw">AW</td>
+            
             </tr>
             <tr>
                 <td>10:15-11:15</td>
-                <td>SER</td>
-                <td>Ingles</td>
-                <td>SER</td>
-                <td>SOR</td>
-                <td>ODWP</td>
+                <td class="ser">SER</td>
+                <td class="ingles">Ingles</td>
+                <td class="ser">SER</td>
+                <td class="sor">SOR</td>
+                <td class="odwp">ODWP</td>
             </tr>
             <tr>
-                <td colspan="6">rec</td>
+                <td class="recreo" colspan="6">RECREO</td>
             </tr>
             <tr>
                 <td>11:45-12:45</td>
-                <td>PI</td>
-                <td>IPEII</td>
-                <td>SOR</td>
-                <td>SER</td>
-                <td>IP</td>
+                <td class="pi">PI</td>
+                <td class="ipe2">IPEII</td>
+                <td class="sor">SOR</td>
+                <td class="ser">SER</td>
+                <td class="ipe2">IPEII</td>
             </tr>
              <tr>
                 <td>12:45-13:45</td>
-                <td>ODWP</td>
-                <td>SER</td>
-                <td>PI</td>
-                <td>AW</td>
-                <td>SOR</td>
+                <td class="odwp">ODWP</td>
+                <td class="ser" rowspan="2">SER</td>
+                <td class="pi">PI</td>
+                <td class="aw" rowspan="2">AW</td>
+                <td class="sor">SOR</td>
             </tr>
              <tr>
                 <td>13:45-14:45</td>
-                <td>IPE II</td>
-                <td>SER</td>
-                <td>Ingles</td>
-                <td>AW</td>
-                <td>SER</td>
+                <td class="ipe2">IPE II</td>
+                <td class="ingles">Ingles</td>
+                <td class="ser">SER</td>
             </tr>
             
         </tbody>
@@ -89,7 +86,7 @@
         </tfoot>
     </table>
   </main>
-  <footer>
+  <footer class="bloque">
     <p>Horario de clase</p>
   </footer>
 </body>
