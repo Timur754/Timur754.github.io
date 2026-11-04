@@ -1,0 +1,118 @@
+/* Reseteo de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo de la página */
+body{
+    background-color: rgb(190, 227, 236);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+/* Nombre con gradiente */
+#nombre-alumno {
+    display: inline-block;
+    background: linear-gradient(90deg, oklch(18% 0.10 255), oklch(50% 0.18 255), oklch(18% 0.10 255));
+    background-clip: text;
+    color: transparent;
+}
+/* Header y footer */
+.bloque {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(110, 173, 224);
+}
+
+/* Menú */
+nav{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(126, 154, 190);
+    
+}
+/* Enlaces del menú */
+nav a {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+/* Tarjeta central */
+main {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+/* Footer abajo */
+footer{
+    margin-top: auto;
+    
+}
+
+/* Borde de la tabla y centrada */
+.horario{
+    border: 2px solid rgb(120, 60, 90);
+    margin: 0 auto;
+
+    
+}
+
+/* Celdas centradas */
+.horario th,
+.horario td {
+    padding: 10px 6px;
+    text-align: center;
+    
+    
+    
+}
+/* Cabeceras en cursiva */
+.horario th {
+    font-style: italic;
+    background-color: transparent;
+}
+
+/* Color del recreo */
+.horario .recreo {
+    background-color: rgb(200, 170, 215);
+}
+
+/* Color SOR */
+.sor {
+    background-color: rgb(126, 211, 190);
+}
+/* Color AW */
+.aw { 
+    background-color: rgb(238, 160, 224); 
+}
+/* Color ODWP */
+.odwp { 
+    background-color: oklch(80% 0.11 55); 
+}
+/* Color SI */
+.si { 
+    background-color: oklch(90% 0.12 95); 
+}
+/* Color SER */
+.ser { 
+    background-color: rgb(185, 165, 235); 
+}
+/* Color Inglés */
+.ingles { 
+    background-color: oklch(85% 0.14 135); 
+}
+/* Color PI */
+.pi { 
+    background-color: rgb(140, 195, 235); 
+}
+/* Color IPE II */
+.ipe2 { 
+    background-color: oklch(78% 0.10 25); 
+}
